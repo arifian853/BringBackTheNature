@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 181334, guid: e5bdfaae7008ab9459ad46c12d4f6ab0, type: 3}
       propertyPath: m_Name
-      value: woodPlank_v001f
+      value: woodPlank_v001f Variant
       objectReference: {fileID: 0}
     - target: {fileID: 402006, guid: e5bdfaae7008ab9459ad46c12d4f6ab0, type: 3}
       propertyPath: m_RootOrder
@@ -57,3 +57,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5bdfaae7008ab9459ad46c12d4f6ab0, type: 3}
+--- !u!1 &4490257864781505250 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 181334, guid: e5bdfaae7008ab9459ad46c12d4f6ab0, type: 3}
+  m_PrefabInstance: {fileID: 4490257864781620916}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &8625932773732946000
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4490257864781505250}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.10001469, y: 0.5000148, z: 2.9999897}
+  m_Center: {x: -0.050004482, y: 0.2500074, z: 1.4999944}
