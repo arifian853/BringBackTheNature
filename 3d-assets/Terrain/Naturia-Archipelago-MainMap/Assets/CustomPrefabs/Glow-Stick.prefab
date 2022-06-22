@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 554154513659767935}
   - component: {fileID: 3783310067730089027}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: Top-Stick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 8150377009454591608}
   - component: {fileID: 6497256471338203466}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Glowing-Things
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -122,7 +122,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3858952702376106972}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.583, z: 0}
+  m_LocalPosition: {x: 0, y: 0.5914, z: 0}
   m_LocalScale: {x: 0.02, y: 0.0736718, z: 0.02}
   m_Children: []
   m_Father: {fileID: 4722922473942327394}
@@ -200,7 +200,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4722922473942327394}
   m_Layer: 0
-  m_Name: New Prefab
+  m_Name: Glow-Stick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -236,7 +236,7 @@ GameObject:
   - component: {fileID: 7855107297416627135}
   - component: {fileID: 1368944550074517617}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Bottom-Stick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -250,7 +250,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8484857390788136359}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.42, z: 0}
+  m_LocalPosition: {x: 0, y: 0.4372, z: 0}
   m_LocalScale: {x: 0.02, y: 0.23376, z: 0.02}
   m_Children: []
   m_Father: {fileID: 4722922473942327394}

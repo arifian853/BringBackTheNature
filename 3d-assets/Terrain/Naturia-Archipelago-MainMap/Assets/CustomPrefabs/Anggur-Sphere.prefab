@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4040271410104007805}
+  - component: {fileID: 1572379788779721196}
   m_Layer: 0
   m_Name: Anggur-Sphere
   m_TagString: Untagged
@@ -32,6 +33,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1572379788779721196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479568833081466746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18be95a2a3e633b459ca73eabee103e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  degreesPerSecond: 75
+  amplitude: 0.3
+  frequency: 0.7
 --- !u!1 &614736748583407412
 GameObject:
   m_ObjectHideFlags: 0
@@ -123,7 +139,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3846018093981099296, guid: 7979dde2d468a424aa9182f2c8640036, type: 3}
+  - {fileID: 2100000, guid: fd9bfa692b01a5f4a94beb378165cb21, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
