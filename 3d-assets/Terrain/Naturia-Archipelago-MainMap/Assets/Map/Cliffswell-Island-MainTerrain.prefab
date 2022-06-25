@@ -1,0 +1,999 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3627267126348604881
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3627267126348604887}
+  - component: {fileID: 3627267126348604886}
+  - component: {fileID: 3627267126348604884}
+  m_Layer: 0
+  m_Name: Water-PondReflectionSceneCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3627267126348604887
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3627267126348604881}
+  m_LocalRotation: {x: -0.06956705, y: 0.84376705, z: 0.11277712, w: 0.52009517}
+  m_LocalPosition: {x: -33.46451, y: -12.436407, z: 54.541912}
+  m_LocalScale: {x: 3.9755638, y: 1.0439951, z: 2.318362}
+  m_Children: []
+  m_Father: {fileID: 3627267126714876560}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &3627267126348604886
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3627267126348604881}
+  m_Enabled: 0
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 1}
+  m_projectionMatrixMode: 0
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967279
+  m_RenderingPath: 1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!45 &3627267126348604884
+Skybox:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3627267126348604881}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 0}
+--- !u!1 &3627267126972483901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3627267126972483840}
+  - component: {fileID: 3627267126972483843}
+  - component: {fileID: 3627267126972483842}
+  m_Layer: 0
+  m_Name: Cliffswell-Island-MainTerrain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &3627267126972483840
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3627267126972483901}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -168, y: 1.7, z: 450}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7231844015574063396}
+  - {fileID: 3530111003804655347}
+  - {fileID: 3530111004572633725}
+  - {fileID: 3530111003038422357}
+  - {fileID: 8937696022935802951}
+  - {fileID: 8689563885683370543}
+  - {fileID: 8874237631291708440}
+  - {fileID: 8874237631327261377}
+  - {fileID: 8874237631567431100}
+  - {fileID: 8874237632051119577}
+  - {fileID: 8874237632514160817}
+  - {fileID: 3627267126714876560}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!218 &3627267126972483843
+Terrain:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3627267126972483901}
+  m_Enabled: 1
+  serializedVersion: 6
+  m_TerrainData: {fileID: 15600000, guid: 47477f63aeaad784784b2a87a26b19c5, type: 2}
+  m_TreeDistance: 5000
+  m_TreeBillboardDistance: 50
+  m_TreeCrossFadeLength: 5
+  m_TreeMaximumFullLODCount: 50
+  m_DetailObjectDistance: 80
+  m_DetailObjectDensity: 1
+  m_HeightmapPixelError: 5
+  m_SplatMapDistance: 1000
+  m_HeightmapMaximumLOD: 0
+  m_ShadowCastingMode: 2
+  m_DrawHeightmap: 1
+  m_DrawInstanced: 1
+  m_DrawTreesAndFoliage: 1
+  m_ReflectionProbeUsage: 1
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
+  m_BakeLightProbesForTrees: 1
+  m_PreserveTreePrototypeLayers: 0
+  m_DeringLightProbesForTrees: 1
+  m_ScaleInLightmap: 0.0256
+  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+  m_GroupingID: 0
+  m_RenderingLayerMask: 1
+  m_AllowAutoConnect: 1
+--- !u!154 &3627267126972483842
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3627267126972483901}
+  m_Material: {fileID: 0}
+  m_Enabled: 1
+  m_TerrainData: {fileID: 15600000, guid: 47477f63aeaad784784b2a87a26b19c5, type: 2}
+  m_EnableTreeColliders: 1
+--- !u!1001 &3627267125424553686
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3627267126972483840}
+    m_Modifications:
+    - target: {fileID: 5647433764102695569, guid: 3d25643d1e7faa34abe82806cd0d3bcd, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5647433764102695569, guid: 3d25643d1e7faa34abe82806cd0d3bcd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 53.153
+      objectReference: {fileID: 0}
+    - target: {fileID: 5647433764102695569, guid: 3d25643d1e7faa34abe82806cd0d3bcd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.300189
+      objectReference: {fileID: 0}
+    - target: {fileID: 5647433764102695569, guid: 3d25643d1e7faa34abe82806cd0d3bcd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.983
+      objectReference: {fileID: 0}
+    - target: {fileID: 5647433764102695569, guid: 3d25643d1e7faa34abe82806cd0d3bcd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.006716271
+      objectReference: {fileID: 0}
+    - target: {fileID: 5647433764102695569, guid: 3d25643d1e7faa34abe82806cd0d3bcd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5647433764102695569, guid: 3d25643d1e7faa34abe82806cd0d3bcd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99997747
+      objectReference: {fileID: 0}
+    - target: {fileID: 5647433764102695569, guid: 3d25643d1e7faa34abe82806cd0d3bcd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5647433764102695569, guid: 3d25643d1e7faa34abe82806cd0d3bcd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5647433764102695569, guid: 3d25643d1e7faa34abe82806cd0d3bcd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 179.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 5647433764102695569, guid: 3d25643d1e7faa34abe82806cd0d3bcd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5647433764102695573, guid: 3d25643d1e7faa34abe82806cd0d3bcd, type: 3}
+      propertyPath: m_Name
+      value: Home4-CLIFFSWELL-ISLAND
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d25643d1e7faa34abe82806cd0d3bcd, type: 3}
+--- !u!4 &8937696022935802951 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5647433764102695569, guid: 3d25643d1e7faa34abe82806cd0d3bcd, type: 3}
+  m_PrefabInstance: {fileID: 3627267125424553686}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3627267125499458557
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3627267126972483840}
+    m_Modifications:
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 76.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.200012
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7142512
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6998895
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 88.836
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9207917501445190938, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_Name
+      value: Fences(0)-CLIFFSWELL-ISLAND
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+--- !u!4 &8874237631291708440 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+  m_PrefabInstance: {fileID: 3627267125499458557}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3627267125535143204
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3627267126972483840}
+    m_Modifications:
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 68.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.050018
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7142512
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6998895
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 88.836
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9207917501445190938, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_Name
+      value: Fences (1)-CLIFFSWELL-ISLAND
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+--- !u!4 &8874237631327261377 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+  m_PrefabInstance: {fileID: 3627267125535143204}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3627267125597010445
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3627267126972483840}
+    m_Modifications:
+    - target: {fileID: 5386635467880992802, guid: 167de1b79de477f41880473305888413, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5386635467880992802, guid: 167de1b79de477f41880473305888413, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 39.370003
+      objectReference: {fileID: 0}
+    - target: {fileID: 5386635467880992802, guid: 167de1b79de477f41880473305888413, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.5199997
+      objectReference: {fileID: 0}
+    - target: {fileID: 5386635467880992802, guid: 167de1b79de477f41880473305888413, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 16.01001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5386635467880992802, guid: 167de1b79de477f41880473305888413, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7311987
+      objectReference: {fileID: 0}
+    - target: {fileID: 5386635467880992802, guid: 167de1b79de477f41880473305888413, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5386635467880992802, guid: 167de1b79de477f41880473305888413, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.68216455
+      objectReference: {fileID: 0}
+    - target: {fileID: 5386635467880992802, guid: 167de1b79de477f41880473305888413, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5386635467880992802, guid: 167de1b79de477f41880473305888413, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5386635467880992802, guid: 167de1b79de477f41880473305888413, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 86.026
+      objectReference: {fileID: 0}
+    - target: {fileID: 5386635467880992802, guid: 167de1b79de477f41880473305888413, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6823902213673988237, guid: 167de1b79de477f41880473305888413, type: 3}
+      propertyPath: m_Name
+      value: Bridge-CLIFFSWELL-ISLAND
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 167de1b79de477f41880473305888413, type: 3}
+--- !u!4 &8689563885683370543 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5386635467880992802, guid: 167de1b79de477f41880473305888413, type: 3}
+  m_PrefabInstance: {fileID: 3627267125597010445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3627267125764694617
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3627267126972483840}
+    m_Modifications:
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 61.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7142512
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6998895
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 88.836
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9207917501445190938, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_Name
+      value: Fences (2)-CLIFFSWELL-ISLAND
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+--- !u!4 &8874237631567431100 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+  m_PrefabInstance: {fileID: 3627267125764694617}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3627267126155858533
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3627267126972483840}
+    m_Modifications:
+    - target: {fileID: 192490929222260740, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_Name
+      value: Home2-CLIFFSWELL-ISLAND
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 93.91293
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.3001833
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 54.895447
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6885319
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.72520614
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 92.972
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+--- !u!4 &3530111004572633725 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+  m_PrefabInstance: {fileID: 3627267126155858533}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3627267126285044224
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8937696022935802951}
+    m_Modifications:
+    - target: {fileID: 3531216489905017163, guid: aa67f7f60b36ed144bfb731e11d67629, type: 3}
+      propertyPath: m_Name
+      value: Meja3D
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200369836594433009, guid: aa67f7f60b36ed144bfb731e11d67629, type: 3}
+      propertyPath: m_RootOrder
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200369836594433009, guid: aa67f7f60b36ed144bfb731e11d67629, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.14576998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200369836594433009, guid: aa67f7f60b36ed144bfb731e11d67629, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 27.29117
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200369836594433009, guid: aa67f7f60b36ed144bfb731e11d67629, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.11312999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200369836594433009, guid: aa67f7f60b36ed144bfb731e11d67629, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.37942904
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200369836594433009, guid: aa67f7f60b36ed144bfb731e11d67629, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.4999847
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200369836594433009, guid: aa67f7f60b36ed144bfb731e11d67629, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2684564
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200369836594433009, guid: aa67f7f60b36ed144bfb731e11d67629, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.006716271
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200369836594433009, guid: aa67f7f60b36ed144bfb731e11d67629, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200369836594433009, guid: aa67f7f60b36ed144bfb731e11d67629, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.99997747
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200369836594433009, guid: aa67f7f60b36ed144bfb731e11d67629, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200369836594433009, guid: aa67f7f60b36ed144bfb731e11d67629, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200369836594433009, guid: aa67f7f60b36ed144bfb731e11d67629, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200369836594433009, guid: aa67f7f60b36ed144bfb731e11d67629, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa67f7f60b36ed144bfb731e11d67629, type: 3}
+--- !u!1001 &3627267126479019860
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3627267126972483840}
+    m_Modifications:
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 45.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.600006
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7142512
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6998895
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 88.836
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9207917501445190938, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_Name
+      value: Fences (4)-CLIFFSWELL-ISLAND
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+--- !u!4 &8874237632514160817 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+  m_PrefabInstance: {fileID: 3627267126479019860}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3627267126606586861
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3627267126972483840}
+    m_Modifications:
+    - target: {fileID: 6128193293988979669, guid: cb083a68a12233641b7b6fe0ff0039b7, type: 3}
+      propertyPath: m_Name
+      value: Safe-Place-CLIFFSWELL-ISLAND
+      objectReference: {fileID: 0}
+    - target: {fileID: 6199785339985722057, guid: cb083a68a12233641b7b6fe0ff0039b7, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6199785339985722057, guid: cb083a68a12233641b7b6fe0ff0039b7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 27.732727
+      objectReference: {fileID: 0}
+    - target: {fileID: 6199785339985722057, guid: cb083a68a12233641b7b6fe0ff0039b7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.300189
+      objectReference: {fileID: 0}
+    - target: {fileID: 6199785339985722057, guid: cb083a68a12233641b7b6fe0ff0039b7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 69.21466
+      objectReference: {fileID: 0}
+    - target: {fileID: 6199785339985722057, guid: cb083a68a12233641b7b6fe0ff0039b7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7381464
+      objectReference: {fileID: 0}
+    - target: {fileID: 6199785339985722057, guid: cb083a68a12233641b7b6fe0ff0039b7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6199785339985722057, guid: cb083a68a12233641b7b6fe0ff0039b7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.67464054
+      objectReference: {fileID: 0}
+    - target: {fileID: 6199785339985722057, guid: cb083a68a12233641b7b6fe0ff0039b7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6199785339985722057, guid: cb083a68a12233641b7b6fe0ff0039b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6199785339985722057, guid: cb083a68a12233641b7b6fe0ff0039b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 84.852
+      objectReference: {fileID: 0}
+    - target: {fileID: 6199785339985722057, guid: cb083a68a12233641b7b6fe0ff0039b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cb083a68a12233641b7b6fe0ff0039b7, type: 3}
+--- !u!4 &7231844015574063396 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6199785339985722057, guid: cb083a68a12233641b7b6fe0ff0039b7, type: 3}
+  m_PrefabInstance: {fileID: 3627267126606586861}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3627267126715013142
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3627267126972483840}
+    m_Modifications:
+    - target: {fileID: 100006, guid: 843740dbe549a4a6ba9556d1b80001f5, type: 3}
+      propertyPath: m_Name
+      value: Water-Pond-CLIFFSWELL-ISLAND
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 843740dbe549a4a6ba9556d1b80001f5, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 843740dbe549a4a6ba9556d1b80001f5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.43581265
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 843740dbe549a4a6ba9556d1b80001f5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.2049218
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 843740dbe549a4a6ba9556d1b80001f5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 93.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 843740dbe549a4a6ba9556d1b80001f5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 843740dbe549a4a6ba9556d1b80001f5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 37.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 843740dbe549a4a6ba9556d1b80001f5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 843740dbe549a4a6ba9556d1b80001f5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 843740dbe549a4a6ba9556d1b80001f5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 843740dbe549a4a6ba9556d1b80001f5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 843740dbe549a4a6ba9556d1b80001f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 843740dbe549a4a6ba9556d1b80001f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 843740dbe549a4a6ba9556d1b80001f5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400008, guid: 843740dbe549a4a6ba9556d1b80001f5, type: 3}
+      propertyPath: waterQuality
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 843740dbe549a4a6ba9556d1b80001f5, type: 3}
+--- !u!4 &3627267126714876560 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400006, guid: 843740dbe549a4a6ba9556d1b80001f5, type: 3}
+  m_PrefabInstance: {fileID: 3627267126715013142}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3627267126923773675
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3627267126972483840}
+    m_Modifications:
+    - target: {fileID: 192490929222260740, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_Name
+      value: Home1-CLIFFSWELL-ISLAND
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 31.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 14.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.69469255
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000028779457
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7193068
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000007740908
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 268.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+--- !u!4 &3530111003804655347 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+  m_PrefabInstance: {fileID: 3627267126923773675}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3627267127089340988
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3627267126972483840}
+    m_Modifications:
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 53.489998
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7142512
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6998895
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 88.836
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9207917501445190938, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+      propertyPath: m_Name
+      value: Fences (3)-CLIFFSWELL-ISLAND
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+--- !u!4 &8874237632051119577 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5292015573315823589, guid: fb40d92e9dcedd7448bd72584fd8efd4, type: 3}
+  m_PrefabInstance: {fileID: 3627267127089340988}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3627267127281093965
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3627267126972483840}
+    m_Modifications:
+    - target: {fileID: 192490929222260740, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_Name
+      value: Home3-CLIFFSWELL-ISLAND
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 78.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.300191
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15.179993
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.67914593
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.73400337
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 94.446
+      objectReference: {fileID: 0}
+    - target: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+--- !u!4 &3530111003038422357 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 192490929222260760, guid: 40ebbea541afb654cbcdc00e38992586, type: 3}
+  m_PrefabInstance: {fileID: 3627267127281093965}
+  m_PrefabAsset: {fileID: 0}

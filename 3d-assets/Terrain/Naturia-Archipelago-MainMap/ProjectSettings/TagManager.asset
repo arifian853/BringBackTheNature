@@ -3,12 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - CinemachineTarget
+  - mainCamera
+  - Enemy
+  - target
+  - Hit
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Hit
   - Water
   - UI
   - 

@@ -105,6 +105,9 @@ GameObject:
   m_Component:
   - component: {fileID: 94811293396180284}
   - component: {fileID: 2663278932615682891}
+  - component: {fileID: 7529403737497387713}
+  - component: {fileID: 9193267175794863911}
+  - component: {fileID: -7308683313642702016}
   m_Layer: 0
   m_Name: Semangka-Sphere
   m_TagString: Untagged
@@ -143,6 +146,45 @@ MonoBehaviour:
   degreesPerSecond: 75
   amplitude: 0.3
   frequency: 0.7
+--- !u!114 &7529403737497387713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6215874241827596879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f432f36798b0c4c4b872b20ad5ca46db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthEffect: 35
+--- !u!65 &9193267175794863911
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6215874241827596879}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-7308683313642702016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6215874241827596879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b73332f13cf9cda439a924cddb01b8f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popSound: {fileID: 8300000, guid: 8b57bbd3f874e9c4da1ee3df97296917, type: 3}
 --- !u!1 &6597945331653769149
 GameObject:
   m_ObjectHideFlags: 0

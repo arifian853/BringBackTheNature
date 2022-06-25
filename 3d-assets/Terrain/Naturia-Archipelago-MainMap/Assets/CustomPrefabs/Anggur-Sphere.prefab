@@ -10,6 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4040271410104007805}
   - component: {fileID: 1572379788779721196}
+  - component: {fileID: 1182918153676036254}
+  - component: {fileID: 7180860585865982467}
+  - component: {fileID: -2190429999953894128}
   m_Layer: 0
   m_Name: Anggur-Sphere
   m_TagString: Untagged
@@ -48,6 +51,45 @@ MonoBehaviour:
   degreesPerSecond: 75
   amplitude: 0.3
   frequency: 0.7
+--- !u!114 &1182918153676036254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479568833081466746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f432f36798b0c4c4b872b20ad5ca46db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthEffect: 15
+--- !u!65 &7180860585865982467
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479568833081466746}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-2190429999953894128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479568833081466746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b73332f13cf9cda439a924cddb01b8f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popSound: {fileID: 8300000, guid: 8b57bbd3f874e9c4da1ee3df97296917, type: 3}
 --- !u!1 &614736748583407412
 GameObject:
   m_ObjectHideFlags: 0
@@ -91,6 +133,8 @@ GameObject:
   - component: {fileID: 2854068219377062219}
   - component: {fileID: 8598680331360735701}
   - component: {fileID: 7348529936221787447}
+  - component: {fileID: 6139175213148400009}
+  - component: {fileID: 958848629561281664}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -169,11 +213,37 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2703117501734900205}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6139175213148400009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2703117501734900205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b73332f13cf9cda439a924cddb01b8f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popSound: {fileID: 0}
+--- !u!114 &958848629561281664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2703117501734900205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f432f36798b0c4c4b872b20ad5ca46db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthEffect: 15
 --- !u!1 &3963090260932918373
 GameObject:
   m_ObjectHideFlags: 0
