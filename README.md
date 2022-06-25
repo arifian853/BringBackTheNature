@@ -1,5 +1,8 @@
 # BringBackTheNature
 
+## Link Download Google Drive 
+- [Google Drive](https://drive.google.com/drive/folders/1IholLn0IpWEos_2JNyzfmQDPeRqISA40?usp=sharing)
+
 ## Konsep : 
 Seorang anak yang terdampar di sebuah pulau memiliki misi untuk menyelamatkan wilayah tempat tinggalnya yang berada di pulau lain dengan cara menanam 5 benih ajaib yang bisa memulihkan lingkungan sekitar dari limbah beracun yang berbahaya bagi sekitar. Ia harus menemukan benih-benih tersebut dengan mengikuti petunjuk dari sebuah buku yang ikut terdampar bersamanya, buku itu berisi nama-nama benih, jenis, dan lokasi. Karakter akan mendapati rintangan untuk mendapatkan benih-benih tersebut. Game ini memiliki genre survival dan juga adventure yang umumnya berisi tantangan yang berbentuk jebakan yang dapat mengurangi health point karakter. 
 
